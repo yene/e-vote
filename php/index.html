@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Stimme prüfen</title>
+<meta name="description" content="...">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap-reboot.min.css">
+<style>
+#main {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 300px;
+}
+</style>
+</head>
+<body>
+<div id="main">
+  <form action="/check.php">
+    <h2>Stimme prüfen</h2>
+    Anonymisierter Name:<br>
+    <input type="text" name="name" value="" autofocus><br>
+    oder Kryptografischer Fingerabdruck:<br>
+    <input type="text" name="hash" value=""><br><br>
+    <input type="submit" value="Abschicken">
+  </form>
+</div>
+
+
+</body>
+</html>
